@@ -1,13 +1,14 @@
-/*!------------------------------------------------------------------
-[MAIN STYLESHEET]
 
-PROJECT:	Project Name
-VERSION:	Versoin Number
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[TABLE OF CONTENTS]
--------------------------------------------------------------------*/
-/*  typography */
+
+.titletext {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+}
+
+
+
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700");
 @font-face {
   font-family: 'BwNistaInt-xBd';
@@ -23,6 +24,10 @@ body {
   font-size: 15px;
   color: #4c4c4c;
 }
+
+
+
+
 
 p, .paragraph {
   font-weight: 400;
