@@ -841,6 +841,27 @@ textarea.form-control {
   top: -50px;
 }
 
+.bg-blog {
+  position: absolute;
+  transform: scaleX(-1);
+  margin-left: 5%;
+  margin-top: 8%;
+  
+  
+  
+}
+
+.bg-blog-2 {
+  position: absolute;
+  
+  margin-left: 90%;
+  
+  bottom: -578%;
+  
+  
+  
+}
+
 .testimonial-bg-shapes .bg-shape-2 {
   position: absolute;
   right: 150px;
@@ -868,7 +889,7 @@ textarea.form-control {
 /* /testimonial */
 /* footer */
 .footer-section {
-  padding-top: 200px;
+  padding-top: 0px;
 }
 
 .section-on-footer {
