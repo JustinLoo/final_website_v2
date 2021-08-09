@@ -1070,3 +1070,33 @@ blockquote {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
+.section{
+  background-color: #f5f8fc;
+
+
+}
+
+.bg-dark footer-section{
+  background-color: #4c4c4c;
+
+
+}
+
+.rounded{
+  border-radius: 0px;
+
+
+}
+
+.mb-4 mb-lg-0{
+  margin-top: 100px;
+
+
+}
+
+body{
+  background-color: #f5f8fc;
+
+  
+}
