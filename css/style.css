@@ -869,8 +869,8 @@ textarea.form-control {
 }
 
 .testimonial-bg-shapes .bg-shape-3 {
-  position: absolute;
-  right: 50px;
+  
+  margin-right: 500px;
   top: 200px;
 }
 

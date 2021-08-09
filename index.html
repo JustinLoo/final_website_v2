@@ -7,9 +7,13 @@
 
   <link rel="icon" href="images/icon-logo.png">
 
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
   
   
   <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
@@ -27,7 +31,8 @@
 </head>
 
 <body>
-  
+
+
 
 <header class="navigation fixed-top">
   <nav class="navbar navbar-expand-lg navbar-dark">
@@ -169,7 +174,8 @@
         </div>
       </div>
 
-      <div class="skill-bars">
+      <div class="skill-bars" data-aos="fade-up"
+                              data-aos-duration="2000">
         <div class="bar">
           <div class="info">
             <span>Python</span>
@@ -219,19 +225,19 @@
       </div>
       
       <div class="col-lg-3 col-md-4 text-center">
-        <img src="images/experience/icon-2.png" alt="icon">
+        <img src="images/experience/icon-2.png" alt="icon" data-aos="fade-right" data-aos-duration="1000">
         <p class="mb-0">Knowledge of Python and Java Object Oriented Concepts.</p>
         <h4>Back-End</h4>
         <h6 class="text-light">Java/Python</h6>
       </div>
       <div class="col-lg-3 col-md-4 text-center">
-        <img src="images/experience/icon-1.png" alt="icon">
+        <img src="images/experience/icon-1.png" alt="icon" data-aos="fade-up" data-aos-duration="1000">
         <p class="mb-0">Created various web apps including a portfolio, and a student manager app that interacts with MySQL database.</p>
         <h4>Databases, Back-End Web Dev</h4>
         <h6 class="text-light">PHP/MySQL</h6>
       </div>
       <div class="col-lg-3 col-md-4 text-center">
-        <img src="images/experience/icon-3.png" alt="icon">
+        <img src="images/experience/icon-3.png" alt="icon" data-aos="fade-left" data-aos-duration="1000">
         <p class="mb-0">Creating front end websites and apps using HTML5/CSS/ and JavaScript.</p>
         <h4>Front-End Dev</h4>
         <h6 class="text-light">HTML/CSS</h6>
@@ -449,6 +455,11 @@
 <!-- /blog -->
 
 <!-- contact -->
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script> 
 
 
 </body>
