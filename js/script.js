@@ -1,3 +1,13 @@
+var loader = document.querySelector(".loader")
+
+window.addEventListener("load", vanish);
+
+function vanish() {
+    setTimeout(function(){ loader.classList.add("disppear"); }, 1500);
+  
+}
+
+
 (function ($) {
     'use strict';
 
