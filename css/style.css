@@ -1160,3 +1160,38 @@ html, body {
 
 
 }
+.btn-info{
+  background-color: #ffff;
+  color: #000;
+  font-size: 100%;
+  text-align: center;
+  padding: 5px;
+
+}
+
+.btn-lg{
+  height: 50%;
+  width: 50%;
+
+
+}
+
+.btn-info:hover{
+  background-color: #c6cccf;
+  color: #000;
+  font-size: 100%;
+  text-align: center;
+  padding: 5px;
+
+}
+
+.btn-info:active :focus{
+  background-color: #c6cccf !important;
+  color: #000;
+  font-size: 100%;
+  text-align: center;
+  padding: 5px;
+
+}
+
+
