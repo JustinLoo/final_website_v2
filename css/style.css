@@ -858,7 +858,7 @@ textarea.form-control {
   
   margin-left: 80%;
   
-  bottom: -595%;
+  bottom: -600%;
   
   
   
@@ -1129,7 +1129,7 @@ html, body {
   justify-content: center;
   align-items: center;
 
-  z-index: 7;
+  z-index: 10;
 }
 
 .disppear{
