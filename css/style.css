@@ -1141,3 +1141,15 @@ html, body {
     visibility: hidden;
   }
 }
+
+.navbar{
+  z-index: 6;
+
+
+}
+
+.wave{
+  z-index: 1;
+
+
+}
