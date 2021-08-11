@@ -1122,14 +1122,14 @@ html, body {
   position: fixed;
   top: 0;
   left: 0;
-  background: white;
+  background: rgb(255, 255, 255);
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  z-index: 10;
+  z-index: 1000;
 }
 
 .disppear{
@@ -1192,6 +1192,30 @@ html, body {
   text-align: center;
   padding: 5px;
 
+}
+
+.modal-title{
+  padding: 0; 
+  margin-top: 1px; 
+  text-align: left; 
+  display:inline-block;
+  position:relative;
+  margin: 0 auto;
+
+ 
+  margin-left: -1em;    
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  .bg-shape-7{
+
+    visibility: hidden;
+    display: none;
+  }
+  
 }
 
 
