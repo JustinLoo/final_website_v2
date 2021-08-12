@@ -1215,6 +1215,53 @@ html, body {
     visibility: hidden;
     display: none;
   }
+
+  
+  
+}
+
+@media only screen and (max-width: 1142px) {
+  .bg-shape-7{
+
+    visibility: hidden;
+    display: none;
+  }
+
+  #databt{
+    font-size: 10px;
+
+
+  }
+  
+}
+
+@media only screen and (max-width: 400px) {
+  .bg-shape-7{
+
+    visibility: hidden;
+    display: none;
+  }
+
+  #databt{
+    font-size: 6.5px;
+
+
+  }
+  
+}
+
+@media only screen and (max-width: 450px) {
+  .bg-shape-7{
+
+    visibility: hidden;
+    display: none;
+  }
+
+  #databt{
+    font-size: 6.5px;
+
+
+  }
   
 }
 
